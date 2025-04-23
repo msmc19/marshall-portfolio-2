@@ -49,6 +49,16 @@ function Contact() {
      }
   };
 
+    // shared inline styles for label, input and helper text
+  const commonInputStyles = {
+    // label
+    InputLabelProps: { style: { color: '#050f0b' } },
+    // input text (and placeholder)
+    InputProps:      { style: { color: '#050f0b' } },
+    // helper / error text
+    FormHelperTextProps: { style: { color: '#d32f2f' } },
+  };
+
   return (
     <div id="contact">
       <div className="items-container">
