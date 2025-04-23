@@ -23,26 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Shift Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">Brentwood, TN; Nashville, TN; Knoxville, TN</h4>
             <p>
-              Coordinated and overhauled maintenance projects to ensure seamless appliance and kitchen operations
-            </p>
-            <p>
-              Streamlined store management through opening and closing tasks, including inventory logging, preparation, and cleaning
-            </p>
-            <p>
-              Worked among multiple franchise locations exemplifying cultural adaptability (Cool Springs, Green Hills, Turkey Creek)
-            </p>
-            <p>
-              Garnered knowledge of basic cooking techniques to execute tasks efficiently such as sauteing, frying, baking, and grilling meats and vegetables
-            </p>
-            <p>
-              Trained between 10-20 newly hired line and front workers to integrate smoothly into operations
-            </p>
-            <p>
-              Led operations under high-pressure, serving 50-150 customers while maintaining a focus on quality and
-              consistency
-            </p>
-            <p>
-              Managed front and back of house staff during peak sales periods, handling $3,000 - $5,000 transactions between 4-7 hour shifts
+              Experienced in efficiently coordinating maintenance projects and optimizing daily store operations across multiple franchise locations, demonstrating exceptional adaptability and leadership. Skilled in high-pressure environments, I effectively managed teams of up to 20 staff, overseeing both front and back-of-house functions to deliver consistent, high-quality service during peak periods, handling transactions of $3,000-$5,000 per shift. Additionally, I developed proficiency in fundamental culinary techniques, contributing to seamless kitchen execution and operational excellence.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -54,10 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Cashier / Merchandiser</h3>
             <h4 className="vertical-timeline-element-subtitle">Brentwood, TN</h4>
             <p>
-              * Monitored sales performance ranging from $10,000 to $20,000 and budgeted merchandise displays accordingly
-              * Reinforced compliance with all local regulations (TABC) governing product sales standards
-              * Operated hand trucks and pallet jacks for maneuvering products throughout the store
-              * Managed daily stocking and display of merchandise valued at upwards of $2,000
+              Proactively managed sales performance of $10,000–$20,000, optimizing merchandise displays to drive revenue growth. Ensured strict compliance with local regulatory standards (TABC), safeguarding operational integrity. Expertly handled logistical tasks using hand trucks and pallet jacks to efficiently maneuver products, and oversaw daily stocking and visual merchandising of inventory valued at upwards of $2,000.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
