@@ -23,9 +23,24 @@
   }
 }
 
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
+  // --- NEW: Scoped MUI overrides ---
+  // MUI OutlinedInput / TextField label
+  label.MuiFormLabel-root {
+    font-size: 1.2rem;
+    font-family: 'DomaineDispNar-Medium', sans-serif;
+    color: #050f0b;               // dark label
+  }
+
+  // force the actual typed text to dark
+  input,
+  textarea {
+    color: #050f0b;               // dark input text
+  }
+
+  // error/helper text
+  .MuiFormHelperText-root {
+    color: #d32f2f !important;    // MUI default error red
+  }
 }
 
 .form-flex {
