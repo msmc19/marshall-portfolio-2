@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faChartLine, faCogs } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -43,7 +43,7 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faCode} size="3x"/>
+                    <FontAwesomeIcon icon={faDatabase} size="3x"/>
                     <h3>Software & Database Development</h3>
                     <p>Develop modular, object-oriented systems and backend services in Python, C++, and Java. Construct robust APIs and integrate with relational databases following SDLC best practices.</p>
                     <div className="flex-chips">
