@@ -23,14 +23,26 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Shift Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">Brentwood, TN; Nashville, TN; Knoxville, TN</h4>
             <p>
-              * Coordinated and overhauled maintenance projects to ensure seamless appliance and kitchen operations
-              * Streamlined store management through opening and closing tasks, including inventory logging, preparation, and cleaning
-              * Worked among multiple franchise locations exemplifying cultural adaptability (Cool Springs, Green Hills, Turkey Creek)
-              * Garnered knowledge of basic cooking techniques to execute tasks efficiently such as sauteing, frying, baking, and grilling meats and vegetables
-              * Trained between 10-20 newly hired line and front workers to integrate smoothly into operations
-              * Led operations under high-pressure, serving 50-150 customers while maintaining a focus on quality and
+              Coordinated and overhauled maintenance projects to ensure seamless appliance and kitchen operations
+            </p>
+            <p>
+              Streamlined store management through opening and closing tasks, including inventory logging, preparation, and cleaning
+            </p>
+            <p>
+              Worked among multiple franchise locations exemplifying cultural adaptability (Cool Springs, Green Hills, Turkey Creek)
+            </p>
+            <p>
+              Garnered knowledge of basic cooking techniques to execute tasks efficiently such as sauteing, frying, baking, and grilling meats and vegetables
+            </p>
+            <p>
+              Trained between 10-20 newly hired line and front workers to integrate smoothly into operations
+            </p>
+            <p>
+              Led operations under high-pressure, serving 50-150 customers while maintaining a focus on quality and
               consistency
-              * Managed front and back of house staff during peak sales periods, handling $3,000 - $5,000 transactions between 4-7 hour shifts
+            </p>
+            <p>
+              Managed front and back of house staff during peak sales periods, handling $3,000 - $5,000 transactions between 4-7 hour shifts
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
