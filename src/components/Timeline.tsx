@@ -48,7 +48,6 @@ function Timeline() {
               * Managed daily stocking and display of merchandise valued at upwards of $2,000
             </p>
           </VerticalTimelineElement>
-          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </div>
