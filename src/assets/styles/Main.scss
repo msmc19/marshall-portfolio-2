@@ -163,8 +163,13 @@
         }
 
         .about-section .image-wrapper {
-            padding-left: 5%;
-            width: 100%;
+                /* for example, shrink to 120px on mobile */
+            width: 120px;
+            aspect-ratio: 1 / 1;
+            border-radius: 50%;
+            overflow: hidden;
+            flex: none;
+            padding-left: 5%; 
         }
     }
 }
