@@ -49,6 +49,19 @@ function Contact() {
      }
   };
 
+// common sx override to force text & label color
+  const fieldSx = {
+    '& .MuiInputBase-input': {
+      color: '#000',           // input text
+    },
+    '& .MuiFormLabel-root': {
+      color: '#000',           // label
+    },
+    '& .MuiFormHelperText-root': {
+      color: '#d32f2f',        // helper/error text
+    },
+  };
+
   return (
     <div id="contact">
       <div className="items-container">
