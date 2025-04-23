@@ -50,10 +50,25 @@
 }
 
 .about-section .image-wrapper {
+  /* 1) fix your diameter here */
+  width: 150px;           
+  aspect-ratio: 1 / 1;    /* height = width */
+
+  /* 2) circle mask + crop */
+  border-radius: 50%;     
+  overflow: hidden;       
+
+  /* 3) prevent flex from stretching you */
+  flex: none;             
+
   z-index: 2;
+
   img {
-    width: 150px;
-    border-radius: 50%;
+    /* fill the wrapper exactly */
+    width: 100%;          
+    height: 100%;
+    object-fit: cover;    /* preserve aspect & center-crop */
+    display: block;       /* remove inline gaps */
   }
 }
 
