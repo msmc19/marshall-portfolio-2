@@ -21,7 +21,7 @@ const labelsSecond = [
     "Seaborn",
     "Sklearn (scikit=learn)",
     "Statsmodels",
-    "Pandas"
+    "Pandas",
 ];
 
 const labelsThird = [
@@ -33,7 +33,7 @@ const labelsThird = [
     "Anaconda",
     "SQL/SQLite scripting",
     "PostgreSQL maintenance scripts",
-    "pytest"
+    "pytest",
 ];
 
 function Expertise() {
