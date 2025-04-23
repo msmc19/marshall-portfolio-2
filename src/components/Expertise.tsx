@@ -6,39 +6,34 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
     "Python",
     "SQL",
     "PostgreSQL",
-    "Postman"
+    "C++",
+    "Java",
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Tableau",
+    "JMP",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "Sklearn (scikit=learn)",
+    "Statsmodels",
+    "Pandas"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Jupyter Notebooks",
+    "Google Colab",
+    "PyCharm",
+    "Visual Studio",
+    "Spyder",
+    "Anaconda",
+    "SQL/SQLite scripting",
+    "PostgreSQL maintenance scripts",
+    "pytest"
 ];
 
 function Expertise() {
@@ -48,9 +43,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faDatabase} size="3x"/>
+                    <h3>Software & Database Development</h3>
+                    <p>Develop modular, object-oriented systems and backend services in Python, C++, and Java. Construct robust APIs and integrate with relational databases following SDLC best practices.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,9 +55,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faChartLine} size="3x"/>
+                    <h3>Data Visualization & Engineering</h3>
+                    <p>Translate complex analyses into clear dashboards and presentations that drive stakeholder decisions. Skilled at designing and normalizing complex schemas, ensuring data integrity, and transforming raw data into actionable insights.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,9 +67,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faCogs} size="3x"/>
+                    <h3>Technical Versatility & Automation</h3>
+                    <p>Rapidly adapt to new technologies to streamline development and deployment. Implement CI/CD pipelines, containerization, and basic cloud workflows to support production readiness.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
