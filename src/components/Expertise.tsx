@@ -8,13 +8,16 @@ import '../assets/styles/Expertise.scss';
 const labelsFirst = [
     "Python",
     "SQL",
+    "T-SQL",
     "PostgreSQL",
     "C++",
     "Java",
 ];
 
 const labelsSecond = [
+    "Power Bi",
     "Tableau",
+    "Tabular Editor",
     "JMP",
     "NumPy",
     "Matplotlib",
@@ -25,6 +28,9 @@ const labelsSecond = [
 ];
 
 const labelsThird = [
+    "Databricks",
+    "Azure Data Factory",
+    "Azure DevOps",
     "Jupyter Notebooks",
     "Google Colab",
     "PyCharm",
