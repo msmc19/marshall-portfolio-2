@@ -11,7 +11,7 @@ function Timeline() {
     <div id="history">
       <div className="items-container">
         <h1>Career History</h1>
-        </VerticalTimelineElement>
+        <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="September 2025 - Present"
@@ -23,7 +23,7 @@ function Timeline() {
             <p>
               Translated complex business requirements into investigator-ready Power BI dashboards and repeatable analytics using advanced SQL, data modeling, and BI tooling, while architecting scalable enterprise analytics platforms with modern data warehouse patterns (STAR schema), ELT pipelines, and dimensional modeling in Azure Data Factory and Databricks. Integrated diverse telemetry and enterprise data sources, resolving data fidelity issues, schema inconsistencies, and pipeline failures to maintain production SLA reliability, and implemented governance controls—including data lineage tracking, automated quality checks, exception workflows, and RBAC—to ensure compliant, secure self-service access. Engineered automated CI/CD orchestration pipelines and observability frameworks via Azure DevOps to improve reliability, reduce latency, and optimize infrastructure costs, delivering measurable outcomes across four cross-industry verticals (electric utilities, agriculture, military manufacturing, and healthcare) by scoping engagements and aligning solutions to business objectives.
             </p>
-        <VerticalTimeline>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
