@@ -23,7 +23,11 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Shift Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">Brentwood, TN; Nashville, TN; Knoxville, TN</h4>
             <p>
-              Experienced in efficiently coordinating maintenance projects and optimizing daily store operations across multiple franchise locations, demonstrating exceptional adaptability and leadership. Skilled in high-pressure environments, I effectively managed teams of up to 20 staff, overseeing both front and back-of-house functions to deliver consistent, high-quality service during peak periods, handling transactions of $3,000-$5,000 per shift. Additionally, I developed proficiency in fundamental culinary techniques, contributing to seamless kitchen execution and operational excellence.
+              ● Managed end-to-end shift operations across 3 franchise locations, overseeing $3,000–$5,000 in daily transactions per 4–7 hour shift 
+              ● Led and mentored 10–20 newly hired employees, building structured onboarding workflows to accelerate integration and reduce ramp time 
+              ● Directed front and back of house staff under high-volume conditions, serving 50–150 customers per shift while maintaining quality and consistency 
+              ● Owned inventory logging, supply preparation, and facility maintenance scheduling to ensure kitchen compliance and operational readiness 
+              ● Coordinated maintenance and appliance overhaul projects across locations to minimize downtime and ensure seamless kitchen operations
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
