@@ -11,6 +11,18 @@ function Timeline() {
     <div id="history">
       <div className="items-container">
         <h1>Career History</h1>
+        </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="September 2025 - Present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Independent Contractor</h3>
+            <h4 className="vertical-timeline-element-subtitle">Brentwood, TN</h4>
+            <p>
+              Translated complex business requirements into investigator-ready Power BI dashboards and repeatable analytics using advanced SQL, data modeling, and BI tooling, while architecting scalable enterprise analytics platforms with modern data warehouse patterns (STAR schema), ELT pipelines, and dimensional modeling in Azure Data Factory and Databricks. Integrated diverse telemetry and enterprise data sources, resolving data fidelity issues, schema inconsistencies, and pipeline failures to maintain production SLA reliability, and implemented governance controls—including data lineage tracking, automated quality checks, exception workflows, and RBAC—to ensure compliant, secure self-service access. Engineered automated CI/CD orchestration pipelines and observability frameworks via Azure DevOps to improve reliability, reduce latency, and optimize infrastructure costs, delivering measurable outcomes across four cross-industry verticals (electric utilities, agriculture, military manufacturing, and healthcare) by scoping engagements and aligning solutions to business objectives.
+            </p>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -23,11 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Shift Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">Brentwood, TN; Nashville, TN; Knoxville, TN</h4>
             <p>
-              ● Managed end-to-end shift operations across 3 franchise locations, overseeing $3,000–$5,000 in daily transactions per 4–7 hour shift 
-              ● Led and mentored 10–20 newly hired employees, building structured onboarding workflows to accelerate integration and reduce ramp time 
-              ● Directed front and back of house staff under high-volume conditions, serving 50–150 customers per shift while maintaining quality and consistency 
-              ● Owned inventory logging, supply preparation, and facility maintenance scheduling to ensure kitchen compliance and operational readiness 
-              ● Coordinated maintenance and appliance overhaul projects across locations to minimize downtime and ensure seamless kitchen operations
+                Managed end-to-end shift operations across 3 franchise locations, overseeing $3,000–$5,000 in daily transactions per 4–7 hour shift while directing front and back of house staff to serve 50–150 customers per shift under high-volume conditions. Led and mentored 10–20 newly hired employees through structured onboarding workflows designed to accelerate integration and reduce ramp time. Owned inventory logging, supply preparation, and facility maintenance scheduling to ensure kitchen compliance and operational readiness, while also coordinating maintenance and appliance overhaul projects across locations to minimize downtime and maintain seamless kitchen operations.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
